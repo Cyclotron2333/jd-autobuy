@@ -431,7 +431,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Simulate to login Jing Dong, and buy sepecified good')
     # config:地址id，商品详情页，右键检查地址元素，data-localid就是area
     parser.add_argument('-a', '--area',
-                        help='Area string, like: 1_72_2799_0 for Beijing', default='1-2800-2848-0')
+                        help='Area string, like: 1_72_2799_0 for Beijing', default='1_2800_2848_0')
     # config:商品id，需要进入商品详情页，地址栏的数字就是goodId
     parser.add_argument('-g', '--good',
                         help='Jing Dong good ID', default='10111164458')
